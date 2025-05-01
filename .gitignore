@@ -1,0 +1,21 @@
+
+# Node.js
+node_modules/
+
+# Webpack output
+/public/build/
+
+# Optional: source maps
+*.map
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files (если используешь)
+.env
+package-lock.json
+

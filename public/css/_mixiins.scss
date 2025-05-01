@@ -1,0 +1,40 @@
+@mixin h($num){
+  font-size: $num rem;
+  color: $primary;
+  padding: 1.5rem 0;
+}
+
+@mixin btn(){
+  font-size: 1.5rem;
+  color: $primary;
+  padding:  1.5rem;
+  background: $secondary;
+}
+
+@mixin flex-container($direction: row, $justify: flex-start, $align: stretch, $wrap: nowrap) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-direction: $direction;
+  -moz-flex-direction: $direction;
+  -ms-flex-direction: $direction;
+  flex-direction: $direction;
+
+  -webkit-justify-content: $justify;
+  -moz-justify-content: $justify;
+  -ms-justify-content: $justify;
+  justify-content: $justify;
+
+  -webkit-align-items: $align;
+  -moz-align-items: $align;
+  -ms-align-items: $align;
+  align-items: $align;
+
+  -webkit-flex-wrap: $wrap;
+  -moz-flex-wrap: $wrap;
+  -ms-flex-wrap: $wrap;
+  flex-wrap: $wrap;
+}
