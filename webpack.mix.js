@@ -8,7 +8,7 @@ mix.sourceMaps();
 
 // 🔄 BrowserSync: подставь адрес своего локального сайта
 mix.browserSync({
-  proxy: "http://codedeploy", // ← твой адрес в Laragon
+  proxy: "http://vew", // ← твой адрес в Laragon
   files: [
     "public/build/css/*.css",
     "public/build/js/*.js",

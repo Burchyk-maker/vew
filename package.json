@@ -1,0 +1,34 @@
+{
+  "name": "codedeploy",
+  "version": "1.0.0",
+  "description": "CodeDeploy for Laravel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "hot": "mix watch --hot",
+    "prod": "mix --production"
+  },
+ 
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+ 
+  
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "browser-sync": "^2.29.3",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.49",
+    "postcss": "^8.5.3",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.87.0",
+    "sass-loader": "^12.1.0"
+  },
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.3.5",
+    "modern-css-reset": "^1.4.0",
+    "normalize.css": "^8.0.1"
+  }
+}

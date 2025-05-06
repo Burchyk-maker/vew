@@ -28,7 +28,7 @@
                     <div class="button">JOIN FACEBOOK COMMUNITY</div>
                 </div>
             </div>
-            <div class="bannerphone">
+            <div class="img__wrap">
                 <img src="/images/apple.png" class="image__banner">
             </div>
         </div>
@@ -62,17 +62,17 @@
     </div>
     <div class="container">
         <div class="reclama">
-            <div class="bannerphone">
-                <img src="/images/1.jpg" class="image__reclama">
+            <div class="img__wrap">
+                <img src="/images/1.jpg">
             </div>
-            <div class="bannerphone">
-                <img src="/images/2.jpg" class="image__reclama">
+            <div class="img__wrap">
+                <img src="/images/2.jpg">
             </div>
-            <div class="bannerphone">
-                <img src="/images/3.jpg" class="image__reclama">
+            <div class="img__wrap">
+                <img src="/images/3.jpg">
             </div>
-            <div class="bannerphone">
-                <img src="/images/4.jpg" class="image__reclama">
+            <div class="img__wrap">
+                <img src="/images/4.jpg">
             </div>
         </div>
     </div>
