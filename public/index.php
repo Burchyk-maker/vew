@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Code Deploy</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="/build/css/main.css">
+   <link rel="stylesheet" href="/build/css/main.css">
 </head>
 
 <body>
@@ -72,6 +70,21 @@
                 <img src="/images/3.jpg" class="image__reclama">
             </div>
             <div class="bannerphone">
+                <img src="/images/4.jpg" class="image__reclama">
+            </div>
+        </div>
+
+        <div class="signal">
+            <div class="slide-up">
+                <img src="/images/1.jpg" class="image__reclama">
+            </div>
+            <div class="shake">
+                <img src="/images/2.jpg" class="image__reclama">
+            </div>
+            <div class="fade-in">
+                <img src="/images/3.jpg" class="image__reclama">
+            </div>
+            <div class="pulse">
                 <img src="/images/4.jpg" class="image__reclama">
             </div>
         </div>
